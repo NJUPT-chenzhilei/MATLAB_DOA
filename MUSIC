@@ -15,4 +15,4 @@ for AXIdx = 1:ASLen
 end
 
 DOAE=[];
-DOAE = PeakFinding(P,K,Ang1,Ang2);
+DOAE = PeakFinding(P,K,Ang1,Ang2);%PeakFinding为matlab中自带的函数，进行谱峰搜索
