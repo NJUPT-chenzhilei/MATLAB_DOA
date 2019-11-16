@@ -1,4 +1,4 @@
-function [P,DOAE] MUSICFun(X,K,M,Ang1,Ang2,step)   
+function [P,DOAE] =  MUSICFun(X,K,M,Ang1,Ang2,step)   
 %该函数返回功率谱P和DOA，其中X是接收数据，K是信源个数，M是天线个数，Ang1和Ang2分别是角度的范围，step是进行步长
 
 [M,N] = size(X);%M是天线个数，N是快拍数
